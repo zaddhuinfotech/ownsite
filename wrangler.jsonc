@@ -10,6 +10,17 @@
     "not_found_handling": "single-page-application"
   },
 
+  "routes": [
+    {
+      "pattern": "zaddhu.com/*",
+      "zone_name": "zaddhu.com"
+    },
+    {
+      "pattern": "www.zaddhu.com/*",
+      "zone_name": "zaddhu.com"
+    }
+  ],
+
   "observability": {
     "enabled": true
   }
